@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="grid-container">
         <div class="header">
-            <div class="search">
-                <img src="./assets/header/search.svg" alt="search icon">
-                <input type="text">
+            <div class="header--top">
+                <div class="search">
+                    <img src="./assets/header/search.svg" alt="search icon">
+                    <input type="text">
+                </div>
+                <div class="notification-group">
+                    <img src="./assets/header/bell.svg" alt="notification icon">
+                    <img src="https://ui-avatars.com/api/?name=Morgan+Oakley" alt="">
+                    <p>Morgan Oakley</p>
+                </div>
             </div>
-            <div class="notification-group">
-                <img src="./assets/header/bell.svg" alt="notification icon">
-                <img src="https://ui-avatars.com/api/?name=Morgan+Oakley" alt="">
-                <p>Morgan Oakley</p>
+            <div class="header--bottom">
+                <div class="nav">
+                    <div class="nav--left">
+                        <img src="https://ui-avatars.com/api/?name=Morgan+Oakley" alt="">
+                        <div class="nav--left--text">
+                            <p class="greeting">Hi there,</p>
+                            <p class="nav--username">Morgan Oakley (@morgan)</p>
+                        </div>
+                    </div>
+                    <div class="nav--right">
+                        <button>New</button>
+                        <button>Uploade</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="nav">
-            <div class="nav--left">
-                <img src="https://ui-avatars.com/api/?name=Morgan+Oakley" alt="">
-                <div class="nav--left--text">
-                    <p class="greeting">Hi there,</p>
-                    <p class="nav--username">Morgan Oakley (@morgan)</p>
-                </div>
-            </div>
-            <div class="nav--right">
-                <button>New</button>
-                <button>Uploade</button>
-                <button>Share</button>
-            </div>
-        </div>
 
         <div class="sidebar">
             <div class="logo-group">
@@ -162,6 +169,7 @@
                 </div>
             </div>
             <div class="trending">
+                <p class="trending--header">Trending</p>
                 <div class="trending--user">
                     <img src="" alt="">
                     <div class="user--handle">
